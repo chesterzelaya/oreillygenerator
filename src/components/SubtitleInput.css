@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Foundry Form Sans';
+  src: url('../fonts/FoundryFormSans-Book.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.subtitle-input {
+  padding: 0 20px;
+  display: flex;
+  align-items: flex-start; /* Align items to the top */
+  margin-top: 10px; /* Add a small top margin */
+}
+
+.subtitle-text {
+  font-family: 'Foundry Form Sans', sans-serif;
+  font-weight: normal; 
+  font-size: 36px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  resize: vertical; /* Allow vertical resizing */
+  background: transparent;
+  line-height: 1.2;
+  overflow: hidden; /* Hide overflow */
+  margin-top: 0;
+  margin-bottom: -130px;
+  min-height: auto; /* Allow the height to adjust to content */
+}
+
+.color-picker {
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+}

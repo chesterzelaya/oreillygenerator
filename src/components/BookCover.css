@@ -1,0 +1,20 @@
+.book-cover {
+  position: relative;
+  width: 600px;
+  height: 800px;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.oreilly-logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 150px; 
+}
+
+.book-content {
+  padding-top: 60px; /* Add padding to account for the logo */
+}

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+@font-face {
+  font-family: 'Carmen Sans';
+  src: url('../fonts/CarmenSans-SemiBold.woff2') format('woff2'),
+       url('../fonts/CarmenSans-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+.title-input {
+  margin-top: 60px;
+  padding: 0 20px;
+}
+
+.title-text {
+  font-family: 'Carmen Sans', sans-serif;
+  font-weight: 900; 
+  font-size: 100px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  resize: none;
+  background: transparent;
+  letter-spacing: -0.06em;
+  margin-top: -45px;
+  text-shadow: 0 0 0 #000;
+  line-height: 1.1;
+  overflow: visible;
+  margin-bottom: 0; /* Remove the negative margin */
+  min-height: auto; /* Allow the height to adjust to content */
+}
