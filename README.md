@@ -37,3 +37,15 @@ This project is a web application that allows users to create parody O'Reilly bo
 ### Running the Application
 
 To start the development server:
+
+1. Make sure you're in the root directory of the project:
+   ```bash
+   cd path/to/oreilly-generator
+   ```
+
+2. Start the application:
+   ```bash
+   npm start
+   ```
+
+This will run the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
